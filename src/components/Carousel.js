@@ -23,7 +23,7 @@ export const Carousel =({ones, twos})=> {
 
 
                                             <div className="col-md-3 mb-3">
-                                                <Link className="Nav_link" to={$authHost.get(`/books/${ones[0].id_book}`)}>
+                                                <Link className="Nav_link" to={`/books/${ones[0].id_book}`}>
                                                     <div className="card card_main" >
                                                         <h5>{ones[0].title}</h5>
                                                         <div className="card-body">
